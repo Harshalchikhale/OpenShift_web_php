@@ -2,7 +2,7 @@
 
 We are using Minishift on a Windows 10 Host using a VirtualBox driver. All examples assumes `oc`, and `odo` tools are installed and properly configured and that the Minishift VM has been properly started.
 
-For help setting up Minishift please see OpenShift Introductory Demo cheatsheet or contact Martin Morales mmoral04@harris.com.
+For help setting up Minishift please see OpenShift Introductory Demo cheatsheet or contact Harshal chikhale harshalchikhale9822.com.
 
 
 
@@ -36,7 +36,7 @@ We use OpenShift to deploy a MySQL application and a PHP application built on th
 
 1. From web console, on the nav bar click Add to Project > Browse Catalog
 2. Click on PHP item
-3. Name the app and for Git Repository enter `https://github.com/martin-morales/sample-openshift-php.git`
+3. Name the app and for Git Repository enter `https://github.com/Harshalchikhale/OpenShift_web_php.git`
 
 #### Add MySQL environment vars to PHP application build
 
@@ -69,8 +69,8 @@ We use OpenShift to deploy a MySQL application and a PHP application built on th
    * You can use `minishift ip` to get the IP address
 2. Create Gogs account with username: gogs password: gogs
 3. After logging into Gogs, click the plus button by the username and click New Migration
-4. For Clone Address input https://github.com/martin-morales/sample-openshift-php.git and Repository Name: `sample-openshift-php`
-5. Edit sample-openshift-php/openshift/lamp-pipeline.yaml `templatePath` to point to the Gogs version of lamp-example-template.json
+4. For Clone Address input https://github.com/Harshalchikhale/OpenShift_web_php.git and Repository Name: `OpenShift_web_php`
+5. Edit OpenShift_web_php/openshift/lamp-pipeline.yaml `templatePath` to point to the Gogs version of lamp-example-template.json
 
 #### Setup Application
 
